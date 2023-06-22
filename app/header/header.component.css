@@ -1,0 +1,27 @@
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    }
+.header__container {
+    display: flex;
+    align-items: center;
+    column-gap: 36px;
+    min-height: 116px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.work-name, .mail {
+    display: flex;
+    justify-content: center;
+    min-width: 250px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #bdbaba;
+    text-decoration: none;
+}
+.exchangeRate {
+    font-size: 30px;
+    color:white;
+}
