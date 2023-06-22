@@ -1,0 +1,40 @@
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: clip;
+}
+.page {
+    flex: 1 1 auto;
+    padding-top: 160px;
+    padding-bottom: 100px;
+}
+.currency__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+    flex-direction: column;
+    width: 600px;
+}
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 400px;
+
+}
+.column {
+    margin-top: 15px;
+    width: 50%;
+}
+select, input {
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 15px;
+    padding: 8px 15px;
+}
